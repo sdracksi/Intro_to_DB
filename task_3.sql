@@ -10,7 +10,7 @@ try:
         host='128.0.10.5',  # Change if necessary
         user='shad',  # Replace with your MySQL username
         password='root',  # Replace with your MySQL password
-        database=db_name
+        database='alx_book_store'
     )
     
     cursor = conn.cursor()
