@@ -3,8 +3,8 @@ USE alx_book_store;
 
 CREATE TABLE IF NOT EXISTS Authors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL
+    author_first_name VARCHAR(50) NOT NULL,
+    author_last_name VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS Books (
